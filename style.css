@@ -26,6 +26,7 @@ header .box-header {
   height: 6vh;
   border-radius: 50px;
   background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+  box-shadow: 0 6px 10px rgba(66, 2, 162, 0.4);
 }
 header .box-header nav {
   display: flex;
@@ -37,6 +38,10 @@ header .box-header nav {
 header .box-header nav a {
   color: #fff;
   font-family: "Roboto", sans-serif;
+}
+header .box-header nav a:hover {
+  transition: all 0.3s ease;
+  color: #17345c;
 }
 
 .box-banner {
@@ -50,10 +55,10 @@ header .box-header nav a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 60vh;
-  width: 27vw;
+  width: 30vw;
 }
 .box-banner .box-titulo h1 {
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: bold;
   background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
   -webkit-background-clip: text;
@@ -68,7 +73,7 @@ header .box-header nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 70%;
   height: 6vh;
 }
 .box-banner .box-btn .btn-azul {
@@ -81,6 +86,11 @@ header .box-header nav a {
   border: none;
   cursor: pointer;
 }
+.box-banner .box-btn .btn-azul:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
 .box-banner .box-btn .btn-branco {
   height: 4vh;
   width: 8vw;
@@ -90,6 +100,11 @@ header .box-header nav a {
   font-size: 0.8rem;
   border-radius: 8px;
   cursor: pointer;
+}
+.box-banner .box-btn .btn-branco:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
 }
 
 .box-exrotina {
@@ -293,11 +308,20 @@ header .box-header nav a {
   width: 60%;
 }
 .box-alertas .cards-alertas .card-rosa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 16vh;
   width: 25vw;
   border-radius: 10px;
   background-color: #f9d5e5;
   text-align: center;
+}
+.box-alertas .cards-alertas .card-rosa .paragrafo {
+  display: flex;
+  height: 8vh;
+  width: 24vw;
+  align-items: center;
 }
 .box-alertas .cards-alertas .card-rosa .box-img {
   display: flex;
@@ -305,7 +329,7 @@ header .box-header nav a {
   justify-content: start;
   gap: 10px;
   height: 7vh;
-  width: 60%;
+  width: 100%;
   padding: 10px;
 }
 .box-alertas .cards-alertas .card-rosa .box-img h2 {
@@ -321,11 +345,20 @@ header .box-header nav a {
   font-weight: 400;
 }
 .box-alertas .cards-alertas .card-azul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 16vh;
   width: 25vw;
   border-radius: 10px;
   background-color: #cfe2f3;
   text-align: center;
+}
+.box-alertas .cards-alertas .card-azul .paragrafo {
+  display: flex;
+  height: 8vh;
+  width: 24vw;
+  align-items: center;
 }
 .box-alertas .cards-alertas .card-azul .box-img {
   display: flex;
@@ -333,7 +366,7 @@ header .box-header nav a {
   justify-content: start;
   gap: 10px;
   height: 7vh;
-  width: 60%;
+  width: 100%;
   padding: 10px;
 }
 .box-alertas .cards-alertas .card-azul .box-img h2 {
@@ -349,11 +382,20 @@ header .box-header nav a {
   font-weight: 400;
 }
 .box-alertas .cards-alertas .card-verde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 16vh;
   width: 25vw;
   border-radius: 10px;
   background-color: #d4edda;
   text-align: center;
+}
+.box-alertas .cards-alertas .card-verde .paragrafo {
+  display: flex;
+  height: 8vh;
+  width: 24vw;
+  align-items: center;
 }
 .box-alertas .cards-alertas .card-verde .box-img {
   display: flex;
@@ -361,7 +403,7 @@ header .box-header nav a {
   justify-content: start;
   gap: 10px;
   height: 7vh;
-  width: 60%;
+  width: 100%;
   padding: 10px;
 }
 .box-alertas .cards-alertas .card-verde .box-img h2 {
@@ -375,14 +417,22 @@ header .box-header nav a {
   font-family: "Roboto";
   color: #244a2d;
   font-weight: 400;
-  padding: 5px;
 }
 .box-alertas .cards-alertas .card-amarelo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 16vh;
   width: 25vw;
   border-radius: 10px;
   background-color: #ffe9c2;
   text-align: center;
+}
+.box-alertas .cards-alertas .card-amarelo .paragrafo {
+  display: flex;
+  height: 8vh;
+  width: 24vw;
+  align-items: center;
 }
 .box-alertas .cards-alertas .card-amarelo .box-img {
   display: flex;
@@ -390,7 +440,7 @@ header .box-header nav a {
   justify-content: start;
   gap: 10px;
   height: 7vh;
-  width: 60%;
+  width: 100%;
   padding: 10px;
 }
 .box-alertas .cards-alertas .card-amarelo .box-img h2 {

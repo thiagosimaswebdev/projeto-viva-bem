@@ -28,6 +28,9 @@ header {
     height: 6vh;
     border-radius: 50px;
     background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+    box-shadow: 0 6px 10px rgba(66, 2, 162, 0.4);
+    
+
 
     nav {
       //border: solid;
@@ -40,6 +43,11 @@ header {
       a {
         color: #fff;
         font-family: "Roboto", sans-serif;
+
+        &:hover {
+        transition: all 0.3s ease;
+        color: #17345c;
+      }
       }
     }
   }
@@ -58,10 +66,10 @@ header {
     justify-content: space-evenly;
     //border: solid rebeccapurple;
     height: 60vh;
-    width: 27vw;
+    width: 30vw;
 
     h1 {
-      font-size: 2.7rem;
+      font-size: 3rem;
       font-weight: bold;
       background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
       -webkit-background-clip: text;
@@ -80,7 +88,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
+    width: 70%;
     height: 6vh;
 
     .btn-azul {
@@ -92,6 +100,12 @@ header {
       font-size: 0.8rem;
       border: none;
       cursor: pointer;
+
+      &:hover {
+        transform: translateY(-5px); // levanta o card levemente
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); // sombra mais intensa
+        transition: all 0.3s ease;
+      }
     }
 
     .btn-branco {
@@ -103,6 +117,12 @@ header {
       font-size: 0.8rem;
       border-radius: 8px;
       cursor: pointer;
+
+      &:hover {
+        transform: translateY(-5px); // levanta o card levemente
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); // sombra mais intensa
+        transition: all 0.3s ease;
+      }
     }
   }
 }
@@ -350,6 +370,9 @@ header {
     width: 60%;
 
     .card-rosa {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
      // border: solid yellowgreen;
       height: 16vh;
       width: 25vw;
@@ -357,6 +380,14 @@ header {
       background-color: #f9d5e5;
       text-align: center;
 
+      .paragrafo{
+        display: flex;
+       // border: solid;
+        height: 8vh;
+        width: 24vw;
+        align-items: center;
+        //text-align: center;
+      }
       .box-img {
         display: flex;
         align-items: center;
@@ -364,7 +395,7 @@ header {
         gap: 10px;
        // border: solid;
         height: 7vh;
-        width: 60%;
+        width: 100%;
         padding: 10px;
 
         h2 {
@@ -384,6 +415,9 @@ header {
     }
 
     .card-azul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
      // border: solid yellowgreen;
       height: 16vh;
       width: 25vw;
@@ -391,14 +425,22 @@ header {
       background-color: #cfe2f3;
       text-align: center;
 
+      .paragrafo{
+        display: flex;
+        //border: solid;
+        height: 8vh;
+        width: 24vw;
+        align-items: center;
+        //text-align: center;
+      }
       .box-img {
         display: flex;
         align-items: center;
         justify-content: start;
         gap: 10px;
-        //border: solid;
+       // border: solid;
         height: 7vh;
-        width: 60%;
+        width: 100%;
         padding: 10px;
 
         h2 {
@@ -412,12 +454,15 @@ header {
       p {
         font-size: 1rem;
         font-family: "Roboto";
-        color: #2769a3;
+        color: #2769a3;;
         font-weight: 400;
       }
     }
 
     .card-verde {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
      // border: solid yellowgreen;
       height: 16vh;
       width: 25vw;
@@ -425,6 +470,14 @@ header {
       background-color: #d4edda;
       text-align: center;
 
+      .paragrafo{
+        display: flex;
+       // border: solid;
+        height: 8vh;
+        width: 24vw;
+        align-items: center;
+        //text-align: center;
+      }
       .box-img {
         display: flex;
         align-items: center;
@@ -432,7 +485,7 @@ header {
         gap: 10px;
        // border: solid;
         height: 7vh;
-        width: 60%;
+        width: 100%;
         padding: 10px;
 
         h2 {
@@ -448,18 +501,28 @@ header {
         font-family: "Roboto";
         color: #244a2d;
         font-weight: 400;
-        padding: 5px;
       }
     }
 
     .card-amarelo {
-    //  border: solid yellowgreen;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     // border: solid yellowgreen;
       height: 16vh;
       width: 25vw;
       border-radius: 10px;
       background-color: #ffe9c2;
       text-align: center;
 
+      .paragrafo{
+        display: flex;
+      //  border: solid;
+        height: 8vh;
+        width: 24vw;
+        align-items: center;
+        //text-align: center;
+      }
       .box-img {
         display: flex;
         align-items: center;
@@ -467,7 +530,7 @@ header {
         gap: 10px;
        // border: solid;
         height: 7vh;
-        width: 60%;
+        width: 100%;
         padding: 10px;
 
         h2 {
