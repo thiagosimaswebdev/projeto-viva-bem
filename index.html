@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="style.css" />
     <title>Viva Bem</title>
   </head>
-  <body>
+  <body id="boxheader">
     <header>
       <div class="box-header">
         <img src="./img/LogoVivaBem.png" alt="Logo do site Viva Bem" />
         <nav>
-          <a href="#">Prevenção Masculina</a>
-          <a href="#">Prevenção Feminina</a>
+          <a href="#prevmasc">Prevenção Masculina</a>
+          <a href="#prevfem">Prevenção Feminina</a>
         </nav>
       </div>
       <section class="box-banner">
@@ -60,7 +60,7 @@
         </section>
       </section>
 
-      <section class="box-prevfem">
+      <section class="box-prevfem" id="prevfem">
         <h2>Prevenção Feminina</h2>
 
         <section class="cards-prevfem">
@@ -167,7 +167,7 @@
         </section>
       </section>
 
-      <section class="box-prevmasc">
+      <section class="box-prevmasc" id="prevmasc">
         <h2>Prevenção Masculina</h2>
 
         <section class="cards-prevmasc">
@@ -322,7 +322,10 @@
             <div class="box-img">
 
             <div class="img">
-                <img src="./img/LogoVivaBem.png" alt="Imagem logo viva bem">    
+              <a href="#boxheader">
+                      <img src="./img/LogoVivaBem.png" alt="Imagem logo viva bem">           
+              </a>
+   
             </div>
            
             
