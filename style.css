@@ -281,7 +281,7 @@ header .box-header nav a:hover {
   justify-content: start;
   gap: 10px;
   width: 10rem;
-  height: 20em;
+  height: 15em;
   font-size: 0.8rem;
 }
 .box-prevmasc .cards-prevmasc .cardmasc ul li {
@@ -698,13 +698,15 @@ footer .contatos .box-sac p {
   .box-prevmasc {
     text-align: center;
     height: auto;
+    width: 100%;
     gap: 20px;
     padding-bottom: 35px;
   }
   .box-prevfem h2,
   .box-prevmasc h2 {
     font-size: 1.8rem;
-    margin: 40px;
+    margin: 20px;
+    width: 100%;
   }
   .box-prevfem .cards-prevfem,
   .box-prevfem .cards-prevmasc,
@@ -713,7 +715,7 @@ footer .contatos .box-sac p {
     height: auto;
     justify-content: space-between;
     flex-direction: column;
-    width: 80%;
+    width: 95%;
     gap: 20px;
   }
   .box-prevfem .cards-prevfem .cardfem,
@@ -725,8 +727,8 @@ footer .contatos .box-sac p {
   .box-prevmasc .cards-prevmasc .cardfem,
   .box-prevmasc .cards-prevmasc .cardmasc {
     flex-direction: column;
-    width: 80%;
-    height: 50vh;
+    width: 90%;
+    height: 23em;
   }
   .box-prevfem .cards-prevfem .cardfem img,
   .box-prevfem .cards-prevfem .cardmasc img,
@@ -761,7 +763,7 @@ footer .contatos .box-sac p {
   .box-prevmasc .cards-prevmasc .cardfem ul,
   .box-prevmasc .cards-prevmasc .cardmasc ul {
     width: 80%;
-    line-height: 1.1rem;
+    line-height: 1rem;
   }
   .box-prevfem .cards-prevfem .cardfem ul li,
   .box-prevfem .cards-prevfem .cardmasc ul li,
