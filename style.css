@@ -35,7 +35,7 @@ header .box-header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 40%;
+  width: 25rem;
   height: 10vh;
 }
 header .box-header nav a {
@@ -58,7 +58,7 @@ header .box-header nav a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   height: 60vh;
-  width: 30vw;
+  width: 38rem;
 }
 .box-banner .box-titulo h1 {
   font-size: 3rem;
@@ -76,12 +76,12 @@ header .box-header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 25rem;
   height: 6vh;
 }
 .box-banner .box-btn .btn-azul {
   height: 4vh;
-  width: 12vw;
+  width: 13rem;
   border-radius: 8px;
   background-color: #1173d4;
   color: #fff;
@@ -96,7 +96,7 @@ header .box-header nav a:hover {
 }
 .box-banner .box-btn .btn-branco {
   height: 4vh;
-  width: 8vw;
+  width: 8rem;
   background-color: #f9fafb;
   color: #1173d4;
   border: solid 1px;
@@ -142,7 +142,7 @@ header .box-header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
+  width: 95%;
   height: 37vh;
 }
 .box-exrotina .box-card-exrotina .card {
@@ -152,7 +152,7 @@ header .box-header nav a:hover {
   align-items: center;
   border-radius: 10px;
   height: 20vh;
-  width: 15vw;
+  width: 17.6rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .box-exrotina .box-card-exrotina .card h3 {
@@ -172,10 +172,12 @@ header .box-header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
+  height: 100%;
   background-color: #fdefef;
+  padding: 2rem;
 }
 .box-prevfem h2 {
+  padding: 15px;
   font-size: 2.7rem;
   font-weight: bold;
   background: linear-gradient(to right, rgba(249, 1, 111, 0.54) 0%, rgba(147, 8, 133, 0.62) 41.83%, rgba(208, 56, 170, 0.75) 70.19%, #851c87 100%);
@@ -188,8 +190,9 @@ header .box-header nav a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 80vh;
+  height: auto;
   width: 50%;
+  gap: 2.8rem;
 }
 .box-prevfem .cards-prevfem .cardfem {
   display: flex;
@@ -197,8 +200,8 @@ header .box-header nav a:hover {
   align-items: center;
   justify-content: start;
   background-color: #fff;
-  height: 36vh;
-  width: 13vw;
+  height: 25em;
+  width: 15rem;
   border-radius: 10px;
   padding-top: 10px;
   gap: 10px;
@@ -214,8 +217,8 @@ header .box-header nav a:hover {
   flex-direction: column;
   justify-content: start;
   gap: 10px;
-  width: 10vw;
-  height: 20vh;
+  width: 10rem;
+  height: 20em;
   font-size: 0.8rem;
 }
 .box-prevfem .cards-prevfem .cardfem ul li {
@@ -232,10 +235,12 @@ header .box-header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
+  height: 100%;
   background-color: #f8f9fa;
+  padding: 2rem;
 }
 .box-prevmasc h2 {
+  padding: 15px;
   font-size: 2.7rem;
   font-weight: bold;
   background: linear-gradient(90deg, #3373d2 16.04%, #6f95c7 33.14%, #7bb5f5 54.51%, #0074ee 68.5%, #5ea7ef 87.02%);
@@ -248,8 +253,9 @@ header .box-header nav a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 80vh;
+  height: auto;
   width: 50%;
+  gap: 2.8rem;
 }
 .box-prevmasc .cards-prevmasc .cardmasc {
   display: flex;
@@ -257,8 +263,8 @@ header .box-header nav a:hover {
   align-items: center;
   justify-content: start;
   background-color: #fff;
-  height: 36vh;
-  width: 13vw;
+  height: 25em;
+  width: 15rem;
   border-radius: 10px;
   padding-top: 10px;
   gap: 10px;
@@ -274,8 +280,8 @@ header .box-header nav a:hover {
   flex-direction: column;
   justify-content: start;
   gap: 10px;
-  width: 10vw;
-  height: 20vh;
+  width: 10rem;
+  height: 20em;
   font-size: 0.8rem;
 }
 .box-prevmasc .cards-prevmasc .cardmasc ul li {
@@ -292,9 +298,11 @@ header .box-header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 65vh;
+  height: auto;
+  padding: 30px;
 }
 .box-alertas .h2-alerta {
+  margin: 20px;
   font-size: 2.7rem;
   font-weight: bold;
   background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
@@ -307,23 +315,29 @@ header .box-header nav a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 45vh;
-  width: 60%;
+  height: auto;
+  width: 65rem;
+  gap: 30px;
+}
+@media (max-width: 1121px) {
+  .box-alertas .cards-alertas {
+    flex-direction: column;
+  }
 }
 .box-alertas .cards-alertas .card-rosa {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 16vh;
-  width: 25vw;
+  height: 10em;
+  width: 31rem;
   border-radius: 10px;
   background-color: #f9d5e5;
   text-align: center;
 }
 .box-alertas .cards-alertas .card-rosa .paragrafo {
   display: flex;
-  height: 8vh;
-  width: 24vw;
+  height: 8em;
+  width: 90%;
   align-items: center;
 }
 .box-alertas .cards-alertas .card-rosa .box-img {
@@ -351,16 +365,16 @@ header .box-header nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 16vh;
-  width: 25vw;
+  height: 10em;
+  width: 31rem;
   border-radius: 10px;
   background-color: #cfe2f3;
   text-align: center;
 }
 .box-alertas .cards-alertas .card-azul .paragrafo {
   display: flex;
-  height: 8vh;
-  width: 24vw;
+  height: 8em;
+  width: 90%;
   align-items: center;
 }
 .box-alertas .cards-alertas .card-azul .box-img {
@@ -388,16 +402,16 @@ header .box-header nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 16vh;
-  width: 25vw;
+  height: 10em;
+  width: 31rem;
   border-radius: 10px;
   background-color: #d4edda;
   text-align: center;
 }
 .box-alertas .cards-alertas .card-verde .paragrafo {
   display: flex;
-  height: 8vh;
-  width: 24vw;
+  height: 8em;
+  width: 90%;
   align-items: center;
 }
 .box-alertas .cards-alertas .card-verde .box-img {
@@ -425,16 +439,16 @@ header .box-header nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 16vh;
-  width: 25vw;
+  height: 10em;
+  width: 31rem;
   border-radius: 10px;
   background-color: #ffe9c2;
   text-align: center;
 }
 .box-alertas .cards-alertas .card-amarelo .paragrafo {
   display: flex;
-  height: 8vh;
-  width: 24vw;
+  height: 8em;
+  width: 90%;
   align-items: center;
 }
 .box-alertas .cards-alertas .card-amarelo .box-img {
@@ -465,7 +479,8 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   background-color: #313461;
-  height: 50vh;
+  height: auto;
+  width: 100%;
 }
 footer .box-footer {
   display: flex;
@@ -480,33 +495,34 @@ footer .box-footer .box-img {
   align-items: center;
   justify-content: space-evenly;
   height: 90%;
-  width: 20vw;
+  width: 20rem;
 }
 footer .box-footer .box-img .img {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 10vh;
-  width: 75%;
+  justify-content: center;
+  height: 6em;
+  width: 20rem;
 }
 footer .box-footer .box-img .box2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 10vh;
-  width: 15vw;
+  height: 10em;
+  width: 20rem;
 }
 footer .box-footer .box-img .box2 h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
   font-family: "Roboto";
   font-weight: 700;
 }
 footer .box-footer .box-img .box2 p {
-  font-size: 0.8rem;
+  font-size: 0.99rem;
   color: #fff;
   font-family: "Roboto";
   font-weight: 400;
-  text-align: center;
 }
 footer .box-footer .links-uteis {
   display: flex;
@@ -745,7 +761,7 @@ footer .contatos .box-sac p {
   .box-prevmasc .cards-prevmasc .cardfem ul,
   .box-prevmasc .cards-prevmasc .cardmasc ul {
     width: 80%;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
   }
   .box-prevfem .cards-prevfem .cardfem ul li,
   .box-prevfem .cards-prevfem .cardmasc ul li,
@@ -825,7 +841,6 @@ footer .contatos .box-sac p {
   footer .box-footer .box-img img {
     height: 35px;
     align-items: center;
-    padding-left: 60px;
   }
   footer .box-footer .box-img .box2 {
     width: 90%;
