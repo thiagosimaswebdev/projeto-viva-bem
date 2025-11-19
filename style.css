@@ -80,7 +80,7 @@ header .box-header nav a:hover {
   height: 6vh;
 }
 .box-banner .box-btn .btn-azul {
-  height: 4vh;
+  height: 3.5em;
   width: 13rem;
   border-radius: 8px;
   background-color: #1173d4;
@@ -95,7 +95,7 @@ header .box-header nav a:hover {
   transition: all 0.3s ease;
 }
 .box-banner .box-btn .btn-branco {
-  height: 4vh;
+  height: 3.5em;
   width: 8rem;
   background-color: #f9fafb;
   color: #1173d4;
