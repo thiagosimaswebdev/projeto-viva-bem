@@ -27,7 +27,7 @@ header {
 
     justify-content: space-around;
     width: 80%;
-    height: 6vh;
+    height: 4.3em;
     border-radius: 50px;
     background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
     box-shadow: 0 6px 10px rgba(66, 2, 162, 0.4);
@@ -64,11 +64,11 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     height: 60vh;
-    width: 38rem;
+    width: 40rem;
     //border: solid;
 
     h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       font-weight: bold;
       background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
       -webkit-background-clip: text;
@@ -77,7 +77,7 @@ header {
     }
 
     p {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       font-weight: 400;
     }
   }
@@ -91,7 +91,7 @@ header {
    // border: solid;
 
     .btn-azul {
-      height: 3.5em;
+      height: 3.8em;
       width: 13rem;
       border-radius: 8px;
       background-color: #1173d4;
@@ -108,7 +108,7 @@ header {
     }
 
     .btn-branco {
-      height: 3.5em;
+      height: 3.8em;
       width: 8rem;
       background-color: #f9fafb;
       color: #1173d4;
@@ -167,20 +167,25 @@ header {
     .card {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: flex-start;
       align-items: center;
       border-radius: 10px;
-      height: 20vh;
+      height: 13em;
       width: 17.6rem;
+      gap: 15px;
+      padding: 5px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); // sombra suave
 
       h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: #04031c;
         padding: 15px;
       }
 
+      p{
+        font-size: 0.9rem;
+      }
       &:hover {
         transform: translateY(-5px); // levanta o card levemente
         box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); // sombra mais intensa
@@ -792,15 +797,19 @@ footer {
       width: 90%;
 
       .card {
-        height: 21vh;
+        height: 10em;
         width: 70%;
+        display: flex;
+       // border: solid;
+    
 
         img {
           margin: 3px;
-          width: 3rem;
+          width: 2.1rem;
         }
         h3 {
-          font-size: 1.1rem;
+          height: 2em;
+          font-size: 0.9rem;
         }
 
         p {
